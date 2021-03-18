@@ -51,10 +51,10 @@ wr9_out_Complex0040.rst7
 2src_20padMD.rst7
 
 The input files for POVME volume calcualtions are:
-mv sample_POVME_2srcAPO.ini     POVME_2srcAPO.ini     
-mv sample_POVME_2srcWR5M01.ini  POVME_2srcWR5M01.ini  
-mv sample_POVME_2srcWR5M04.ini  POVME_2srcWR5M04.ini  
-mv sample_POVME_2srcWR5M29.ini  POVME_2srcWR5M29.ini  
-mv sample_POVME_2srcWR9M31.ini  POVME_2srcWR9M31.ini  
-mv sample_POVME_2srcWR9M40.ini  POVME_2srcWR9M40.ini  
-mv sample_POVME_2srcWR9M6.ini   POVME_2srcWR9M6.ini   
+POVME_2srcAPO.ini     
+POVME_2srcWR5M01.ini  
+POVME_2srcWR5M04.ini  
+POVME_2srcWR5M29.ini  
+POVME_2srcWR9M31.ini  
+POVME_2srcWR9M40.ini  
+POVME_2srcWR9M6.ini   
