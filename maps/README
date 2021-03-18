@@ -1,1 +1,3 @@
 
+This folder contains the gzipped maps files used by ADCP to define the docking box and calculate the peptide-receptor interaction energy
+The files need to be unzipped and located in the folder where the ADCP command line is run
