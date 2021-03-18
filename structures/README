@@ -1,1 +1,60 @@
+This folder contains the following files
 
+2src.pdbqt : the pdbqt used to generate receptor maps for docking
+
+wr5_out.pdb : multi-model PDB file of WR5 clustered docking poses
+wr6_out.pdb : multi-model PDB file of WR5 clustered docking poses
+wr7_out.pdb : multi-model PDB file of WR5 clustered docking poses
+wr8_out.pdb : multi-model PDB file of WR5 clustered docking poses
+wr8_out.pdb : multi-model PDB file of WR5 clustered docking poses
+
+NOTE: the clustering was performed with clusterADCP.py provided in the
+      scripts folder
+
+Input files for MD simulations are provided for WR5 and WR9 representative
+poses (i.e. WR5 poses 1, 29, 4 and WR9 poses 6, 31, 40 for pockets 1, 2, and 3
+respectively)
+
+# WR5 in pocket 1
+wr5_out_complex0001.parm7
+wr5_out_complex0001.pdb
+wr5_out_complex0001.rst7
+
+# WR5 in pocket 3
+wr5_out_complex0004.parm7
+wr5_out_complex0004.pdb
+wr5_out_complex0004.rst7
+
+# WR5 in pocket 2
+wr5_out_complex0029.parm7
+wr5_out_complex0029.pdb
+wr5_out_complex0029.rst7
+
+# WR9 in pocket 1
+wr9_out_Complex0006.parm7
+wr9_out_Complex0006.pdb
+wr9_out_Complex0006.rst7
+
+# WR9 in pocket 2
+wr9_out_Complex0031.parm7
+wr9_out_Complex0031.pdb
+wr9_out_Complex0031.rst7
+
+# WR9 in pocket 3
+wr9_out_Complex0040.parm7
+wr9_out_Complex0040.pdb
+wr9_out_Complex0040.rst7
+
+# 2src APO structure
+2src_20padMD.parm7
+2src_20padMD.pdb
+2src_20padMD.rst7
+
+The input files for POVME volume calcualtions are:
+mv sample_POVME_2srcAPO.ini     POVME_2srcAPO.ini     
+mv sample_POVME_2srcWR5M01.ini  POVME_2srcWR5M01.ini  
+mv sample_POVME_2srcWR5M04.ini  POVME_2srcWR5M04.ini  
+mv sample_POVME_2srcWR5M29.ini  POVME_2srcWR5M29.ini  
+mv sample_POVME_2srcWR9M31.ini  POVME_2srcWR9M31.ini  
+mv sample_POVME_2srcWR9M40.ini  POVME_2srcWR9M40.ini  
+mv sample_POVME_2srcWR9M6.ini   POVME_2srcWR9M6.ini   

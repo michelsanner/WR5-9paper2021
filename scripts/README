@@ -1,1 +1,7 @@
+This folder contains scripts used for this work that are either not available it
+the ADFRsuite distribution or are modified
 
+clusterADCP.py # cluster the output from a set of run of the adcp binary
+
+clusterCG.py # cluster poses based on center of gravity using DBSCAN
+DBSCAN.py
